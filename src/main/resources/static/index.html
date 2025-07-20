@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Async Document Generation</title>
+    <style>
+        #progressBar {
+            width: 100%;
+            height: 20px;
+            margin-top: 10px;
+        }
+        #status {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        #signBtn:disabled {
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+<button id="signBtn">Sign & Generate Document</button>
+<progress id="progressBar" max="100" value="0"></progress>
+<div id="status">Status: –</div>
+<div id="docLink"></div>
+
+<script>
+    const signBtn     = document.getElementById('signBtn');
+    const statusEl    = document.getElementById('status');
+    const progressBar = document.getElementById('progressBar');
+    const docLinkEl   = document.getElementById('docLink');
+
+    // map your textual status to progress %
+    const statusToPercent = {
+        'Queued':                     5,
+        'Fetching master data':      25,
+        'Calculating payments':      45,
+        'Mapping to document':       65,
+        'Sending to DocuSign':       85,
+        'Signing…':                  95,
+        'Completed ✅':             100,
+        'Error ❌':                  0
+    };
+
+    signBtn.addEventListener('click', () => {
+        // disable and reset UI
+        signBtn.disabled = true;
+        progressBar.value = 0;
+        statusEl.innerText = 'Status: Queued';
+        docLinkEl.innerHTML = '';
+
+        fetch('/jobs/start', { method: 'POST' })
+            .then(res => {
+                if (!res.ok) throw new Error(res.statusText);
+                return res.text();
+            })
+            .then(jobId => {
+                const intervalId = setInterval(() => {
+                    fetch(`/jobs/status/${jobId}`)
+                        .then(r => {
+                            if (!r.ok) throw new Error(r.statusText);
+                            return r.json();
+                        })
+                        .then(js => {
+                            const txt = js.status || 'Unknown';
+                            statusEl.innerText = 'Status: ' + txt;
+
+                            // update progress bar
+                            const pct = statusToPercent[txt] ?? progressBar.value;
+                            progressBar.value = pct;
+
+                            // simulate a "Signing…" phase
+                            if (txt.startsWith('Completed')) {
+                                clearInterval(intervalId);
+                                // if your backend returns a URL, replace the href below:
+                                docLinkEl.innerHTML = `
+                    <p>
+                      🎉 Document ready!
+                      <a href="#" target="_blank">Open in DocuSign</a>
+                    </p>`;
+                            }
+                            if (txt.startsWith('Error') || txt.startsWith('Unknown')) {
+                                clearInterval(intervalId);
+                                signBtn.disabled = false;
+                            }
+                        })
+                        .catch(err => {
+                            clearInterval(intervalId);
+                            statusEl.innerText = 'Status: ❌ Error fetching status';
+                            console.error(err);
+                            signBtn.disabled = false;
+                        });
+                }, 2000);
+            })
+            .catch(err => {
+                statusEl.innerText = 'Status: ❌ Failed to start job';
+                console.error(err);
+                signBtn.disabled = false;
+            });
+    });
+</script>
+</body>
+</html>

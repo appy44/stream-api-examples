@@ -1,0 +1,842 @@
+[
+  {
+    "id": 10001,
+    "name": "Aarav Gigglesworth",
+    "address": {
+      "street": "Wobble Way",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "346139"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "40620"
+    },
+    "designation": "Software Engineer",
+    "company": "FunkyTech",
+    "salary": 819063,
+    "age": 45,
+    "gender": "Other",
+    "emails": [
+      {
+        "type": "work",
+        "address": "aarav.gigglesworth@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10002,
+    "name": "Anjali Flufferson",
+    "address": {
+      "street": "Fluff Avenue",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "zipCode": "568329"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "57765"
+    },
+    "designation": "HR Manager",
+    "company": "QuirkSoft",
+    "salary": 1208200,
+    "age": 41,
+    "gender": "Other",
+    "emails": [
+      {
+        "type": "work",
+        "address": "anjali.flufferson@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10003,
+    "name": "Sunny Quackenbush",
+    "address": {
+      "street": "Fizz Road",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "zipCode": "696605"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "20290"
+    },
+    "designation": "Accountant",
+    "company": "BubbleCorp",
+    "salary": 1519011,
+    "age": 35,
+    "gender": "Male",
+    "emails": [
+      {
+        "type": "work",
+        "address": "sunny.quackenbush@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10004,
+    "name": "Anita Quackenbush",
+    "address": {
+      "street": "Quirk Crescent",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zipCode": "817755"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "55008"
+    },
+    "designation": "Marketing Specialist",
+    "company": "SnickerSystems",
+    "salary": 716422,
+    "age": 45,
+    "gender": "Female",
+    "emails": [
+      {
+        "type": "work",
+        "address": "anita.quackenbush@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10005,
+    "name": "Karan Flufferson",
+    "address": {
+      "street": "Quirk Crescent",
+      "city": "Delhi",
+      "state": "Delhi",
+      "zipCode": "737317"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "77009"
+    },
+    "designation": "Operations Lead",
+    "company": "WobbleWorks",
+    "salary": 1845280,
+    "age": 27,
+    "gender": "Other",
+    "emails": [
+      {
+        "type": "work",
+        "address": "karan.flufferson@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10006,
+    "name": "Deepa Quackenbush",
+    "address": {
+      "street": "Quirk Crescent",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "zipCode": "144509"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "88883"
+    },
+    "designation": "Quality Analyst",
+    "company": "Fluffington LLC",
+    "salary": 838501,
+    "age": 39,
+    "gender": "Other",
+    "emails": [
+      {
+        "type": "work",
+        "address": "deepa.quackenbush@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10007,
+    "name": "Priya Snickerdoodle",
+    "address": {
+      "street": "Giggle Street",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zipCode": "953624"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "71524"
+    },
+    "designation": "Software Engineer",
+    "company": "FunkyTech",
+    "salary": 1895065,
+    "age": 32,
+    "gender": "Male",
+    "emails": [
+      {
+        "type": "work",
+        "address": "priya.snickerdoodle@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10008,
+    "name": "Rohan Snickerdoodle",
+    "address": {
+      "street": "Bubblegum Boulevard",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "zipCode": "463386"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "13162"
+    },
+    "designation": "HR Manager",
+    "company": "QuirkSoft",
+    "salary": 1963908,
+    "age": 42,
+    "gender": "Other",
+    "emails": [
+      {
+        "type": "work",
+        "address": "rohan.snickerdoodle@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10009,
+    "name": "Anita Snickerdoodle",
+    "address": {
+      "street": "Fizz Road",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "zipCode": "189779"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "89992"
+    },
+    "designation": "Accountant",
+    "company": "BubbleCorp",
+    "salary": 1616148,
+    "age": 40,
+    "gender": "Other",
+    "emails": [
+      {
+        "type": "work",
+        "address": "anita.snickerdoodle@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10010,
+    "name": "Arjun Gigglesworth",
+    "address": {
+      "street": "Snickerdoodle Lane",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "zipCode": "891168"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "90300"
+    },
+    "designation": "Marketing Specialist",
+    "company": "SnickerSystems",
+    "salary": 1210899,
+    "age": 37,
+    "gender": "Female",
+    "emails": [
+      {
+        "type": "work",
+        "address": "arjun.gigglesworth@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10011,
+    "name": "Sunny Quackenbush",
+    "address": {
+      "street": "Giggle Street",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "874191"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "80317"
+    },
+    "designation": "Operations Lead",
+    "company": "WobbleWorks",
+    "salary": 1372801,
+    "age": 40,
+    "gender": "Male",
+    "emails": [
+      {
+        "type": "work",
+        "address": "sunny.quackenbush@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10012,
+    "name": "Sunny Bubblepants",
+    "address": {
+      "street": "Fluff Avenue",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "zipCode": "390881"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "43082"
+    },
+    "designation": "Quality Analyst",
+    "company": "Fluffington LLC",
+    "salary": 627756,
+    "age": 26,
+    "gender": "Other",
+    "emails": [
+      {
+        "type": "work",
+        "address": "sunny.bubblepants@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10013,
+    "name": "Priya Gigglesworth",
+    "address": {
+      "street": "Bubblegum Boulevard",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "zipCode": "435316"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "81082"
+    },
+    "designation": "Software Engineer",
+    "company": "FunkyTech",
+    "salary": 1011820,
+    "age": 28,
+    "gender": "Male",
+    "emails": [
+      {
+        "type": "work",
+        "address": "priya.gigglesworth@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10014,
+    "name": "Vikram Flufferson",
+    "address": {
+      "street": "Quirk Crescent",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zipCode": "316646"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "99595"
+    },
+    "designation": "HR Manager",
+    "company": "QuirkSoft",
+    "salary": 1854214,
+    "age": 42,
+    "gender": "Male",
+    "emails": [
+      {
+        "type": "work",
+        "address": "vikram.flufferson@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10015,
+    "name": "Anjali Snickerdoodle",
+    "address": {
+      "street": "Fizz Road",
+      "city": "Delhi",
+      "state": "Delhi",
+      "zipCode": "864885"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "82721"
+    },
+    "designation": "Accountant",
+    "company": "BubbleCorp",
+    "salary": 548615,
+    "age": 34,
+    "gender": "Female",
+    "emails": [
+      {
+        "type": "work",
+        "address": "anjali.snickerdoodle@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10016,
+    "name": "Megha Gigglesworth",
+    "address": {
+      "street": "Snickerdoodle Lane",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "zipCode": "217274"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "89512"
+    },
+    "designation": "Marketing Specialist",
+    "company": "SnickerSystems",
+    "salary": 1248802,
+    "age": 42,
+    "gender": "Male",
+    "emails": [
+      {
+        "type": "work",
+        "address": "megha.gigglesworth@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10017,
+    "name": "Anjali Bubblepants",
+    "address": {
+      "street": "Bubblegum Boulevard",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zipCode": "480682"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "83428"
+    },
+    "designation": "Operations Lead",
+    "company": "WobbleWorks",
+    "salary": 1314237,
+    "age": 38,
+    "gender": "Male",
+    "emails": [
+      {
+        "type": "work",
+        "address": "anjali.bubblepants@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10018,
+    "name": "Rohan Quackenbush",
+    "address": {
+      "street": "Bubblegum Boulevard",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "zipCode": "775816"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "84122"
+    },
+    "designation": "Quality Analyst",
+    "company": "Fluffington LLC",
+    "salary": 1055634,
+    "age": 45,
+    "gender": "Male",
+    "emails": [
+      {
+        "type": "work",
+        "address": "rohan.quackenbush@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10019,
+    "name": "Anita Flufferson",
+    "address": {
+      "street": "Wobble Way",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "zipCode": "749874"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "99119"
+    },
+    "designation": "Software Engineer",
+    "company": "FunkyTech",
+    "salary": 1544738,
+    "age": 34,
+    "gender": "Male",
+    "emails": [
+      {
+        "type": "work",
+        "address": "anita.flufferson@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10020,
+    "name": "Sunny Quackenbush",
+    "address": {
+      "street": "Bumble Path",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "zipCode": "154550"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "79255"
+    },
+    "designation": "HR Manager",
+    "company": "QuirkSoft",
+    "salary": 1530488,
+    "age": 35,
+    "gender": "Other",
+    "emails": [
+      {
+        "type": "work",
+        "address": "sunny.quackenbush@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10021,
+    "name": "Priya Gigglesworth",
+    "address": {
+      "street": "Fluff Avenue",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "542310"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "49473"
+    },
+    "designation": "Accountant",
+    "company": "BubbleCorp",
+    "salary": 1956328,
+    "age": 43,
+    "gender": "Other",
+    "emails": [
+      {
+        "type": "work",
+        "address": "priya.gigglesworth@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10022,
+    "name": "Rohan Gigglesworth",
+    "address": {
+      "street": "Rainbow Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "zipCode": "930300"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "53636"
+    },
+    "designation": "Marketing Specialist",
+    "company": "SnickerSystems",
+    "salary": 1664759,
+    "age": 38,
+    "gender": "Female",
+    "emails": [
+      {
+        "type": "work",
+        "address": "rohan.gigglesworth@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10023,
+    "name": "Megha Bubblepants",
+    "address": {
+      "street": "Bubblegum Boulevard",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "zipCode": "341575"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "13289"
+    },
+    "designation": "Operations Lead",
+    "company": "WobbleWorks",
+    "salary": 1552807,
+    "age": 32,
+    "gender": "Other",
+    "emails": [
+      {
+        "type": "work",
+        "address": "megha.bubblepants@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10024,
+    "name": "Sanjay Snickerdoodle",
+    "address": {
+      "street": "Fluff Avenue",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zipCode": "789631"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "76199"
+    },
+    "designation": "Quality Analyst",
+    "company": "Fluffington LLC",
+    "salary": 1128652,
+    "age": 29,
+    "gender": "Other",
+    "emails": [
+      {
+        "type": "work",
+        "address": "sanjay.snickerdoodle@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10025,
+    "name": "Lucky Snickerdoodle",
+    "address": {
+      "street": "Fluff Avenue",
+      "city": "Delhi",
+      "state": "Delhi",
+      "zipCode": "764416"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "24197"
+    },
+    "designation": "Software Engineer",
+    "company": "FunkyTech",
+    "salary": 1951844,
+    "age": 32,
+    "gender": "Female",
+    "emails": [
+      {
+        "type": "work",
+        "address": "lucky.snickerdoodle@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10026,
+    "name": "Megha Quackenbush",
+    "address": {
+      "street": "Quirk Crescent",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "zipCode": "565480"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "29339"
+    },
+    "designation": "HR Manager",
+    "company": "QuirkSoft",
+    "salary": 1304665,
+    "age": 41,
+    "gender": "Male",
+    "emails": [
+      {
+        "type": "work",
+        "address": "megha.quackenbush@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10027,
+    "name": "Rita Snickerdoodle",
+    "address": {
+      "street": "Giggle Street",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zipCode": "568395"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "29941"
+    },
+    "designation": "Accountant",
+    "company": "BubbleCorp",
+    "salary": 1919743,
+    "age": 26,
+    "gender": "Male",
+    "emails": [
+      {
+        "type": "work",
+        "address": "rita.snickerdoodle@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10028,
+    "name": "Vikram Bubblepants",
+    "address": {
+      "street": "Doodle Drive",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "zipCode": "788015"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "64969"
+    },
+    "designation": "Marketing Specialist",
+    "company": "SnickerSystems",
+    "salary": 990509,
+    "age": 31,
+    "gender": "Female",
+    "emails": [
+      {
+        "type": "work",
+        "address": "vikram.bubblepants@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10029,
+    "name": "Anjali Snickerdoodle",
+    "address": {
+      "street": "Bubblegum Boulevard",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "zipCode": "999810"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "52774"
+    },
+    "designation": "Operations Lead",
+    "company": "WobbleWorks",
+    "salary": 1474197,
+    "age": 39,
+    "gender": "Other",
+    "emails": [
+      {
+        "type": "work",
+        "address": "anjali.snickerdoodle@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  },
+  {
+    "id": 10030,
+    "name": "Deepa Quackenbush",
+    "address": {
+      "street": "Quirk Crescent",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "zipCode": "871279"
+    },
+    "contact": {
+      "type": "primary",
+      "number": "10678"
+    },
+    "designation": "Quality Analyst",
+    "company": "Fluffington LLC",
+    "salary": 641938,
+    "age": 25,
+    "gender": "Female",
+    "emails": [
+      {
+        "type": "work",
+        "address": "deepa.quackenbush@fakemail.com"
+      }
+    ],
+    "skills": [],
+    "professions": [],
+    "experiences": []
+  }
+]

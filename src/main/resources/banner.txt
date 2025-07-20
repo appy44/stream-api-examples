@@ -1,0 +1,6 @@
+Developer Mode: Stream API Examples App
+---------------------------------------------
+| > Running on localhost:8080
+| > REST APIs available
+| > Practice makes progress
+---------------------------------------------
